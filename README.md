@@ -40,16 +40,16 @@ Here is a short description of the scripts included in the "main" where the corr
 - `check_beta.py` - Describes a function that glues piecewise conditions of constraints used in other scripts, builds a plot of existing constraints (`constraints.pdf`);
 - `plot_distributions.py` - Comparison instantaneous $\nu-$ and $\gamma-$spectra for 3 mass distributions (`three_mass_spectrum.pdf`, `nu_inst_spec.pdf`, `inst_spec_e15_e13_e11.pdf`); 
 - `mass_via_time.py` - Builds a graph of the dependence of mass PBH on the their lifetime (`mass_via_time.pdf`);
-- `plot_results.py` - Main results. Builds a graph of time-integrated neutrino flux densities for various distributions. Flux densities calculate according to:
+- `plot_results.py` - Main results. Builds a graph of time-integrated neutrino flux densities for various distributions (`nu_results_1.pdf`). Flux densities calculate according to:
 
-$$ \frac{\mathrm{d}\Phi_{\nu}}{\mathrm{d}E_{\nu}} = \frac{c}{4\pi} \frac{\mathrm{d}N_{\nu}}{\mathrm{d}E_{\nu}} = n_{\mathrm{PBH}}(t_{0}) \int_{t_{\mathrm{min}}}^{t_{0}} \mathrm{d}t (1+z) \frac{\mathrm{d}^{2}N_{\nu}^{\mathrm{tot}}(E_{\nu}(1+z), M(t))}{\mathrm{d}t\mathrm{d}E_{\nu}} ,$$
+$$ \frac{\mathrm{d}\Phi_{\nu}}{\mathrm{d}E_{\nu}} = \frac{c}{4\pi} \frac{\mathrm{d}N_{\nu}}{\mathrm{d}E_{\nu}} = \frac{c}{4\pi} n_{\mathrm{PBH}}(t_{0}) \int_{t_{\mathrm{min}}}^{t_{0}} \mathrm{d}t (1+z) \frac{\mathrm{d}^{2}N_{\nu}^{\mathrm{tot}}(E_{\nu}(1+z), M(t))}{\mathrm{d}t\mathrm{d}E_{\nu}} ,$$
 
-где $t_{\mathrm{min}} = 1$ s -- time of neutrino splitting off from matter in early Universe, $z(t)$ -- redshift, $n_{\mathrm{PBH}}(t_{0})$ -- current PBH number density with $t_0 = 13.8 \text{billion years}=4.35\times 10^{17}$ s, $c$ - speed of light.
+где $t_{\mathrm{min}} = 1$ s - time of neutrino splitting off from matter in early Universe, $z(t)$ - redshift, $n_{\mathrm{PBH}}(t_{0})$ - current PBH number density with $t_0 = 13.8 \text{billion years}=4.35\times 10^{17}$ s, $c$ - speed of light;
 
-- `allowed_window.py` - 
-- `h_zero.py` -
-- `rhos_3d.py` -
-- `autocalc_rhos.py` -
+- `allowed_window.py` - Builds a window of optimal parameters of the lognormal distribution, which correspond to such neutrino fluxes that can be detected in future experiments (`window.pdf`);
+- `h_zero.py` - Calculates and displays the relative deviation of the Hubble parameter as a function of redshift, taking into account neutrino injection from PBH (`h_results.pdf`)
+- `rhos_3d.py` - 
+- `autocalc_rhos.py` - 
 - `autocalc_rhos_via_time` -
 
 ## Some figures
