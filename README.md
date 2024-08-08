@@ -48,9 +48,9 @@ $$ \frac{\mathrm{d}\Phi_{\nu}}{\mathrm{d}E_{\nu}} = \frac{c}{4\pi} \frac{\mathrm
 
 - `allowed_window.py` - Builds a window of optimal parameters of the lognormal distribution, which correspond to such neutrino fluxes that can be detected in future experiments (`window.pdf`);
 - `h_zero.py` - Calculates and displays the relative deviation of the Hubble parameter as a function of redshift, taking into account neutrino injection from PBH (`h_results.pdf`)
-- `rhos_3d.py` - 
-- `autocalc_rhos.py` - 
-- `autocalc_rhos_via_time` -
+- `rhos_3d.py` - Plots the dependence of the width on the median mass of the distribution with a third variable - a color map, identified with the dimensionless neutrino energy density for each required flux density (`3dplot.pdf`, `2dplot.pdf`);
+- `autocalc_rhos.py` - Automatically runs a time integration procedure for instantaneous spectra for all neutrino types, combines them into one data set, and calculates energy densities for each distribution;
+- `autocalc_rhos_via_time` - Same but for one distribution it creates energy density data on time.
 
 ## Some figures
 
