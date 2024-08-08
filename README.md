@@ -37,10 +37,13 @@ Here is a short description of the scripts included in the "main" where the corr
 
 - `autorun_blackhawk.py` - Automatically runs long-running BlackHawk simulations for various distributions by modifying the parameter file and controlling I/O flow;
 - `preamble.py` - Pre-settings for final graphs using _rcParams_ such as sizes, latex enabled, etc.;
-- `check_beta.py` - Describes a function that glues piecewise conditions of constraints used in other scripts, builds a plot of existing constraints;
-- `plot_distributions.py` - 
-- `mass_via_time.py` -
-- `plot_results.py` -
+- `check_beta.py` - Describes a function that glues piecewise conditions of constraints used in other scripts, builds a plot of existing constraints (`constraints.pdf`);
+- `plot_distributions.py` - Comparison instantaneous $\nu-$ and $\gamma-$spectra for 3 mass distributions (`three_mass_spectrum.pdf`, `nu_inst_spec.pdf`, `inst_spec_e15_e13_e11.pdf`); 
+- `mass_via_time.py` - Builds a graph of the dependence of mass PBH on the their lifetime (`mass_via_time.pdf`);
+- `plot_results.py` - Main results. Builds a graph of time-integrated neutrino flux densities for various distributions. Flux densities calculate according to:
+
+$$ \frac{\mathrm{d}\Phi_{\nu}}{\mathrm{d}E_{\nu}} = \frac{c}{4\pi}\,\frac{\mathrm{d}N_{\nu}}{\mathrm{d}E_{\nu}}\, $$
+
 - `allowed_window.py` -
 - `h_zero.py` -
 - `rhos_3d.py` -
