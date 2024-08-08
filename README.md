@@ -50,3 +50,15 @@ The rest of the input data for directly calculating the flux density that appear
 - From `plot_results.py`:
   
   <img src="/Figures/jpg/nu_results_1_cropped.jpg" width="700">
+  
+- From `plot_distributions.py`:
+  
+  <img src="/Figures/jpg/inst_spec_e15_e13_e11_cropped.jpg" width="700">
+
+- From `allowed_window.py`:
+
+  <img src="/Figures/jpg/window_cropped.jpg" width="700">
+
+- From `rhos_3d.py`:
+
+  <img src="/Figures/jpg/2dplot_best_cropped.jpg" width="700">
