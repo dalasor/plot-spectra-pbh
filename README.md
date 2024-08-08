@@ -10,9 +10,9 @@ This code on **Python 3.10** can be used as a template to plot your own plots us
 
 The "Data" folder contains files that are used in plotting. They can be divided into 3 groups:
 
-- Constraints on abundance of PBH - dimensionless parameter $\beta'$ - the fraction of the PBH energy density in the total energy density of the Universe at the time of their formation:
+- [Constraints](http://dx.doi.org/10.1088/1361-6633/ac1e31) on abundance of PBH - dimensionless parameter $\beta'$ - the fraction of the PBH energy density in the total energy density of the Universe at the time of their formation:
   1. `beta_bbn_data.csv` - obtained from Big Bang Nucleosynthesis
   2. `beta_cmb_data.csv` - obtained from Cosmic Microwave Background
   3. `egb_data.csv` - obtained from ExtraGalactic Background
 
-- Background $\nu$ and $\gamma$ data
+- $\nu$- and $\gamma$-background data
