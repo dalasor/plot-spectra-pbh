@@ -33,4 +33,16 @@ The rest of the input data for directly calculating the flux density that appear
 
 ## Code
 
+- `autorun_blackhawk.py` -
+- `preamble.py` -
+- `check_beta.py` -
+- `plot_distributions.py` -
+- `mass_via_time.py` -
+- `plot_results.py` -
+- `allowed_window.py` -
+- `h_zero.py` -
+- `rhos_3d.py` -
+- `autocalc_rhos.py` -
+- `autocalc_rhos_via_time` -
 
+## Some theory
