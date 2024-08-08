@@ -1,4 +1,4 @@
-# Plotting time-integrated neutrino spectra from Primordial Black Holes (PBH) with log-normal mass function
+# Plotting time-integrated neutrino spectra from Primordial Black Holes (PBH) with log-normal mass distribution
 
 ## Overview
 
