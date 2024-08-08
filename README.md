@@ -45,4 +45,7 @@ The rest of the input data for directly calculating the flux density that appear
 - `autocalc_rhos.py` -
 - `autocalc_rhos_via_time` -
 
-## Some theory
+## Some figures
+
+- From `plot_results.py`:
+  ![Main results](/Figures/nu_results_1_cropped.pdf "Main Results")
