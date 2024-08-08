@@ -42,7 +42,9 @@ Here is a short description of the scripts included in the "main" where the corr
 - `mass_via_time.py` - Builds a graph of the dependence of mass PBH on the their lifetime (`mass_via_time.pdf`);
 - `plot_results.py` - Main results. Builds a graph of time-integrated neutrino flux densities for various distributions. Flux densities calculate according to:
 
-$$ \frac{\mathrm{d}\Phi_{\nu}}{\mathrm{d}E_{\nu}} = \frac{c}{4\pi}\,\frac{\mathrm{d}N_{\nu}}{\mathrm{d}E_{\nu}}\, $$
+$$ \frac{\mathrm{d}\Phi_{\nu}}{\mathrm{d}E_{\nu}} = \frac{c}{4\pi} \frac{\mathrm{d}N_{\nu}}{\mathrm{d}E_{\nu}} = n_{\mathrm{PBH}}(t_{0})\, \int_{t_{\mathrm{min}}}^{t_{0}} \mathrm{d}t\, (1+z)\, \frac{\mathrm{d}^{2}N_{\nu}^{\mathrm{tot}}(E_{\nu}(1+z),\,M(t))}{\mathrm{d}t\mathrm{d}E_{\nu}}\,, $$
+
+где 
 
 - `allowed_window.py` -
 - `h_zero.py` -
