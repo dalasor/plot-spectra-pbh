@@ -16,15 +16,13 @@ The "Data" folder contains files that are used in plotting which are not from **
   3. `egb_data.csv` - obtained from ExtraGalactic Background
 
 - $\nu$-background ([link](http://dx.doi.org/10.1016/j.astropartphys.2020.102537)) and $\gamma$-background ([link](http://dx.doi.org/10.1177/0003702818767133)) data:
-  1. `antinu_n.txt` -
-  2. `antinu_t.txt` -
-  3. `Sun-thermal.dat` -
-  4. `Sun-nuclear-pp.dat` -
-  5. `Sun-nuclear-hep.dat` -
-  6. `Sun-nuclear-B8.dat` -
-  7. `dataoldsn.csv` -
-  8. `Atmospheric.dat` -
-  9. `nu_background.txt` -
-  10. `ph_background.txt` -
+  1. `antinu_n.txt` and `antinu_t.txt` - antineutrinos from the decay of neutrons and tritons during primary nucleosynthesis
+  2. `Sun-thermal.dat` - predicted thermal solar neutrino
+  3. `Sun-nuclear-pp.dat`, `Sun-nuclear-hep.dat` and `Sun-nuclear-B8.dat` - neutrinno from nuclear fusion reactions on Sun
+  4. `dataoldsn.csv` - diffuse neutrino background from distant supernovae (DSBN)
+  5. `Atmospheric.dat` - atmospheric neutrino 
+  6. `nu_background.txt` and `ph_background.txt` - combined full background for neutrinos and photons
 
 - Additional / Intermediate
+
+## Code
