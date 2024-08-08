@@ -49,4 +49,4 @@ The rest of the input data for directly calculating the flux density that appear
 
 - From `plot_results.py`:
   
-  <img src="/Figures/jpg/nu_results_1_cropped.jpg" width="300">
+  <img src="/Figures/jpg/nu_results_1_cropped.jpg" width="900">
