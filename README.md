@@ -29,7 +29,7 @@ The "Data" folder contains files that are used in plotting which are not from **
 
 - Additional / Intermediate / Optional
 
-Other source data for calculate directly flux densities appearing in the code obtained from simulations BlackHawk.
+The rest of the input data for directly calculating the flux density that appears in the code is obtained as a result of BlackHawk simulations.
 
 ## Code
 
