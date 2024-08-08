@@ -33,10 +33,12 @@ The rest of the input data for directly calculating the flux density that appear
 
 ## Code
 
+Here is a short description of the scripts included in the "main" where the corresponding calculations are defined:
+
 - `autorun_blackhawk.py` - Automatically runs long-running BlackHawk simulations for various distributions by modifying the parameter file and controlling I/O flow;
-- `preamble.py` - Pre-settings for final graphs using _rcParams_ such as sizes, latex enabled, etc.
-- `check_beta.py` - 
-- `plot_distributions.py` -
+- `preamble.py` - Pre-settings for final graphs using _rcParams_ such as sizes, latex enabled, etc.;
+- `check_beta.py` - Describes a function that glues piecewise conditions of constraints used in other scripts, builds a plot of existing constraints;
+- `plot_distributions.py` - 
 - `mass_via_time.py` -
 - `plot_results.py` -
 - `allowed_window.py` -
