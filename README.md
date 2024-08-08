@@ -5,3 +5,7 @@
 To simulate the life of evaporating primordial black holes and numerically calculate energy spectra, the public code [BlackHawk v.2.1](https://blackhawk.hepforge.org/) is used.
 
 This code can be used as a template to plot your own plots using **matplotlib**.
+
+## Constraints
+
+Constraints on evoporating PBH with other background $\nu, \gamma$ data
