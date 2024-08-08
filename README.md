@@ -15,7 +15,7 @@ The "Data" folder contains files that are used in plotting which are not from **
   2. `beta_cmb_data.csv` - obtained from Cosmic Microwave Background
   3. `egb_data.csv` - obtained from ExtraGalactic Background
 
-- $\nu$ [(link)](http://dx.doi.org/10.1016/j.astropartphys.2020.102537)- and $\gamma$ [(link)](http://dx.doi.org/10.1177/0003702818767133)-background data:
+- $\nu$-background [(link)](http://dx.doi.org/10.1016/j.astropartphys.2020.102537) and $\gamma$-background [(link)](http://dx.doi.org/10.1177/0003702818767133) data:
   1. `antinu_n.txt` -
   2. `antinu_t.txt` -
   3. `Sun-thermal.dat` -
